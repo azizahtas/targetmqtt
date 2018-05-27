@@ -18,7 +18,7 @@ mqttServ.on('ready', setup);
 
 // fired when the mqtt server is ready
 function setup() {
-  console.log('Mosca server is up and running on '+process.env.PORT);
+  console.log('Mosca server is up and running ');
 }
 
 httpServ.listen(process.env.PORT || 8080);
